@@ -2,6 +2,8 @@
 
 A powerful, flexible command-line tool for running multiple commands concurrently in Go. Perfect for development workflows, build processes, and managing multiple services.
 
+*Partially inspired by the [concurrently](https://www.npmjs.com/package/concurrently) npm package.*
+
 [![Go Report Card](https://goreportcard.com/badge/github.com/sandrolain/goncurrently)](https://goreportcard.com/report/github.com/sandrolain/goncurrently)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -64,38 +66,6 @@ This will install the `goncurrently` binary in your `$GOPATH/bin` directory. Mak
 git clone https://github.com/sandrolain/goncurrently.git
 cd goncurrently
 go build -o goncurrently .
-```
-
-### Using Task
-
-This project includes a [Taskfile](https://taskfile.dev) for common operations:
-
-```bash
-# Install Task (if not already installed)
-go install github.com/go-task/task/v3/cmd/task@latest
-
-# Build the application
-task build
-
-# Run tests
-task test
-
-# Run examples
-task run-microservices
-task run-tui
-
-# Generate demo GIFs (requires VHS)
-task vhs-all
-```
-
-See [TASKFILE_GUIDE.md](TASKFILE_GUIDE.md) for all available tasks.
-
-### Using Go Module
-
-Add to your project:
-
-```bash
-go get github.com/sandrolain/goncurrently
 ```
 
 ## Usage
@@ -372,27 +342,6 @@ Commands can be configured to restart automatically:
 - `restartTries: N` - Restart up to N times
 
 Successful completions and timeout exits don't trigger restarts. Only error exits trigger the restart logic.
-
-## Development
-
-### Running Tests
-
-```bash
-go test -v ./...
-```
-
-### Running with Coverage
-
-```bash
-go test -coverprofile=coverage.out ./...
-go tool cover -html=coverage.out
-```
-
-### Linting
-
-```bash
-golangci-lint run ./...
-```
 
 ## Contributing
 
